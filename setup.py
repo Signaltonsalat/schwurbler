@@ -5,7 +5,7 @@ from setuptools import setup
 def setup_package():
     entry_points = {
         'console_scripts': [
-            'schwurble = schwurbler.schwurbler:cli'
+            'schwurbel = schwurbler.schwurbler:cli'
         ]
     }
 

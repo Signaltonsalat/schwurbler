@@ -1,7 +1,9 @@
 certifi==2018.4.16
 chardet==3.0.4
 click==6.7
+fuzzywuzzy==0.16.0
 googletrans==2.3.0
 idna==2.7
 requests==2.19.1
+-e git+signalhub:Signaltonsalat/schwurbler.git@1a8ed56ee0d7c0666e199b8a0dec547d2052ca31#egg=schwurbler
 urllib3==1.23

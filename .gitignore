@@ -6,6 +6,7 @@
 !setup.cfg
 *.orig
 *.log
+*.log.1
 *.pot
 __pycache__/*
 .cache/*
