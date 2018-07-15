@@ -44,3 +44,5 @@ MANIFEST
 
 # Virtual env
 .venv/
+
+tags

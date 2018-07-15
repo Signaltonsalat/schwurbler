@@ -2,4 +2,4 @@
 Contributors
 ============
 
-* Signaltonsalat <signaltonsalat@gmail.com>
+* Signaltonsalat
