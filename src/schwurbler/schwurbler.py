@@ -101,7 +101,7 @@ def set_ratio_schwurbel(text, lang,
     """
     log.debug('Performing set ratio schwurbel going for a ratio of: %s', ratio)
     validate_path(langs)
-    validate_path(lang)
+    validate_path(','.join((lang, lang)))
     trans = googletrans.Translator()
     langs = {l for l in langs.split(',')}
     stack = [text]
