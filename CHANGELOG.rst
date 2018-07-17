@@ -2,6 +2,10 @@
 Changelog
 =========
 
+Version 1.0.3
+=============
+- Add cooldown sleep between translations
+
 Version 1.0.2
 =============
 - Fixed single-language path validation

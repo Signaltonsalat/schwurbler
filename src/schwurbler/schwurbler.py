@@ -7,10 +7,14 @@ translations.
 import logging as log
 import random
 
+from time import sleep
+
 import click
 import googletrans
 
 from fuzzywuzzy import fuzz
+
+COOLDOWN = 0.5
 
 
 def validate_path(path):
@@ -75,6 +79,7 @@ def path_schwurbel(path, text):
         assert translated.src == src
         assert translated.dest == dest
         translated = translated.text
+        sleep(COOLDOWN)
 
     return translated
 
@@ -119,6 +124,7 @@ def set_ratio_schwurbel(text, lang,
             stack.append(nat_text)
             log.debug('Got schwurbel with %s <? %s ratio: %s', last_ratio,
                       target_ratio, nat_text)
+        sleep(COOLDOWN)
     return nat_text
 
 
